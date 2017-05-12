@@ -7,8 +7,8 @@ public class DialogueData : MonoBehaviour {
 
 	public string[] DialogueStrings;
 
-	public float SecondsBetweenCharacters = 0.5f;
-	public float CharacterRateMultiplier = 0.75f;
+	private float SecondsBetweenCharacters = 0.01f;
+	private float CharacterRateMultiplier = 0.001f;
 
 	public KeyCode DialogueInput = KeyCode.Return;
 
