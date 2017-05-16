@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: f033f11ddc7b86940870c9aaa72d2091
-timeCreated: 1494969975
+guid: 776a8909186849c42a3f2c1e3ef312dc
+timeCreated: 1494970079
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Alien (1)_0
-    21300002: Alien (1)_1
-    21300004: Alien (1)_2
-    21300006: Alien (1)_3
+    21300000: Jeff (1)_0
+    21300002: Jeff (1)_1
+    21300004: Jeff (1)_2
+    21300006: Jeff (1)_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alien (1)_0
+      name: Jeff (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -87,7 +87,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien (1)_1
+      name: Jeff (1)_1
       rect:
         serializedVersion: 2
         x: 4096
@@ -100,7 +100,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien (1)_2
+      name: Jeff (1)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien (1)_3
+      name: Jeff (1)_3
       rect:
         serializedVersion: 2
         x: 4096
