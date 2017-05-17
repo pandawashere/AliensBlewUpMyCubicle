@@ -1,17 +1,13 @@
 fileFormatVersion: 2
-guid: f033f11ddc7b86940870c9aaa72d2091
-timeCreated: 1494969975
+guid: f1af9c99d95c3a643bfb20180a4b7463
+timeCreated: 1494042050
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Alien (1)_0
-    21300002: Alien (1)_1
-    21300004: Alien (1)_2
-    21300006: Alien (1)_3
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -31,14 +27,14 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 0
-    aniso: 16
+    filterMode: -1
+    aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,61 +66,17 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Alien (1)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4096
-        width: 4096
-        height: 4096
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Alien (1)_1
-      rect:
-        serializedVersion: 2
-        x: 4096
-        y: 4096
-        width: 4096
-        height: 4096
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Alien (1)_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4096
-        height: 4096
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Alien (1)_3
-      rect:
-        serializedVersion: 2
-        x: 4096
-        y: 0
-        width: 4096
-        height: 4096
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 

@@ -3,11 +3,12 @@ using System.Collections;
 
 public class CharacterList : MonoBehaviour {
 
-	public GameObject Jake;
-	public GameObject Henry;
-	public GameObject Jeff;
-	public GameObject Maria;
-	public GameObject Alien;
+	public Sprite[] Jake;
+	public Sprite[] Boss;
+	public Sprite[] Jeff;
+	public Sprite[] Maria;
+	public Sprite[] Alien;
+	public Sprite[] Queen;
 
 
 
