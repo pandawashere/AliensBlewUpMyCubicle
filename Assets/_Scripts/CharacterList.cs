@@ -4,8 +4,8 @@ using System.Collections;
 public class CharacterList : MonoBehaviour {
 
 	public Sprite[] Jake;
-	public Sprite[] Boss;
 	public Sprite[] Jeff;
+	public Sprite[] Boss;
 	public Sprite[] Maria;
 	public Sprite[] Alien;
 	public Sprite[] Queen;
