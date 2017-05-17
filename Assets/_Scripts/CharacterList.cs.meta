@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 2d6f3f6241c436240b1e7518281592e3
-timeCreated: 1493173359
+timeCreated: 1494980462
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Jake: {fileID: 1000011254524292, guid: ba0b336ce2e69cc4898a713c7735be16, type: 2}
+  - Henry: {instanceID: 0}
+  - Jeff: {instanceID: 0}
+  - Maria: {instanceID: 0}
+  - Alien: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

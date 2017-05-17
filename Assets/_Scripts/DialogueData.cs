@@ -2,6 +2,13 @@
 using System.Collections;
 using UnityEngine.UI;
 
+[System.Serializable]
+public class characterEmotion{
+	public Sprite[] spriteArray;
+
+}
+
+
 public class DialogueData : MonoBehaviour {
 	public Text _textComponent;
 
@@ -17,6 +24,8 @@ public class DialogueData : MonoBehaviour {
 	private bool _isEndOfDialogue = false;
 
 	public GameObject Choices;
+
+	public characterEmotion[] characters;
 
 
 	// Use this for initialization
@@ -62,14 +71,14 @@ public class DialogueData : MonoBehaviour {
 		int stringLength = stringToDisplay.Length;
 		int currentCharacterIndex = 0;
 
-
-
 		_textComponent.text = "";
 
 		while (currentCharacterIndex < stringLength) {
 
 			_textComponent.text += stringToDisplay [currentCharacterIndex];
 			currentCharacterIndex++;
+
+
 
 			if (currentCharacterIndex < stringLength) {
 				if (Input.GetKey (DialogueInput)) {
@@ -82,7 +91,7 @@ public class DialogueData : MonoBehaviour {
 				break;
 			}
 		}
-		ShowIcon();
+		ShowChoices();
 
 		while (true) {
 			if (Input.GetKeyDown (DialogueInput)) {
@@ -96,7 +105,7 @@ public class DialogueData : MonoBehaviour {
 	}
 
 
-	private void ShowIcon(){
+	private void ShowChoices(){
 		if (_isEndOfDialogue == true) {
 			Choices.SetActive (true);
 
