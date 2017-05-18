@@ -48,6 +48,7 @@ public class DialogueData : MonoBehaviour {
 		if (currentDialogueLine >= DialogueStrings.Length) {
 			_isEndOfDialogue = true;
 			ShowChoices ();
+			currentDialogueLine = 0;
 
 		}
 		_textComponent.text = DialogueStrings [currentDialogueLine];
