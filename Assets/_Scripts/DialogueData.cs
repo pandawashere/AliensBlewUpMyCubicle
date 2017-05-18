@@ -42,12 +42,15 @@ public class DialogueData : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
+		if (_isDialogueActive && currentDialogueLine < DialogueStrings.Length -1 && Input.GetKeyDown(KeyCode.Mouse0)) { 
 				currentDialogueLine++;
 
 		}
+		if (currentDialogueLine == DialogueStrings.Length -1) {
 			_isEndOfDialogue = true;
 			ShowChoices ();
 			_isDialogueActive = false;
+
 
 		}
 		_textComponent.text = DialogueStrings [currentDialogueLine];
