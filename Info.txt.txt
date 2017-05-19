@@ -1,0 +1,11 @@
+Aliens Blew Up My Cubicle 
+
+Made by: Austin Winkler, Torrey Wang, Alyssa Mazzucotelli, and Samantha Gomes 
+
+Aliens Blew Up My Cubicle is a text-based adventure where you play as a office worker named Jake. 
+His best friend is a cactus named Jeff, and aliens have kidnapped him, so you must go on a journey with choices and dialouge to save him. 
+
+Austin Winkler: Main Designer, Main Story Writer, Art Designer 
+Torrey Wang: Story Writer, Coder 
+Alyssa Mazzucotelli: Coder, Researcher 
+Samantha Gomes: Story Writer, Coder, Editer 
